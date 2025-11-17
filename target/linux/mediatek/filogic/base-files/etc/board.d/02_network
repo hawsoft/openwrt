@@ -77,7 +77,7 @@ mediatek_setup_interfaces()
 		;;
 	bananapi,bpi-r4|\
 	bananapi,bpi-r4-poe)
-		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 eth1" "wan eth2"
+		ucidef_set_interfaces_lan_wan "lan0 lan1 lan2 lan3" "eth1 eth2"
 		;;
 	comfast,cf-e393ax)
 		ucidef_set_interfaces_lan_wan "lan1" eth1
