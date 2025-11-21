@@ -3,3 +3,5 @@ src-git luci https://git.openwrt.org/project/luci.git;openwrt-24.10
 src-git routing https://git.openwrt.org/feed/routing.git;openwrt-24.10
 src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-24.10
 src-git ssrplus https://github.com/hawsoft/ssr-plus.git;master
+src-git istore https://github.com/hawsoft/luci-istore.git;master
+src-git theme https://github.com/hawsoft/luci-theme-argon.git;master
